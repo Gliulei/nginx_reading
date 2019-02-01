@@ -1,5 +1,5 @@
-####nginx源码分析一
-#####main函数关键启动分析
+#### nginx源码分析一
+##### main函数关键启动分析
 **1、解析命令行参数,显示帮助信息**
 ```
 if (ngx_get_options(argc, argv) != NGX_OK) {
